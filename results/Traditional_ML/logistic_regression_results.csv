@@ -1,0 +1,3 @@
+Experiment,Model,Split,Precision,Recall,F1-score,PR-AUC,ROC-AUC
+LR-RANDOM-01,Logistic Regression,Random,0.0238,0.9598,0.0464,0.5817,0.9908
+LR-TEMPORAL-01,Logistic Regression,Temporal,0.1102,0.8828,0.1959,0.6801,0.988
