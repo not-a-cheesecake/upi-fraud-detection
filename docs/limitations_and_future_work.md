@@ -17,7 +17,7 @@
 - Current GNNExplainer artifacts document one selected validation fraud transaction.
 - Feature and edge masks are model-specific importance signals, not causal claims.
 - The edge-removal faithfulness check is a single-sample diagnostic. Removing graph edges may shift the input distribution, and differences for removing a few top versus bottom edges were small.
-- More examples, repeated runs, stability checks, and controlled comparison baselines are needed for dataset-wide claims.
+- More examples, repeated runs, stability checks, and controlled comparison baselines are needed for dataset-wide claims. 
 
 ## Engineering next steps
 - Experiment logic currently lives primarily in notebooks. A future refactor could extract shared preprocessing, graph construction, model definitions, evaluation, and explainability helpers into `src/` while preserving existing notebooks as experiment records.
