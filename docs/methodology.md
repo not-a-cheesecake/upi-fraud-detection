@@ -29,7 +29,7 @@ The repository includes GNNExplainer outputs for one selected validation fraud t
 - plots and CSV outputs;
 - an edge-removal faithfulness diagnostic.
 
-The local subgraph contains 11 nodes and 9 directed edges, and its prediction matched the recorded full-graph probability for the selected sample. This is a local, single-example explanation. Importance masks are not causal explanations, and one example cannot establish explanation stability across the dataset.
+The local subgraph contains 11 nodes and 9 directed edges, and its prediction matched the recorded full-graph probability for the selected sample. This is a local, single-example explanation. Importance masks are not causal explanations, and one example cannot establish explanation stability across the dataset. 
 
 ## 6. Evaluation protocol
 Report confusion-matrix counts together with precision, recall, F1-score, PR-AUC, ROC-AUC, and the selected threshold. Because class imbalance is severe, PR-AUC and precision/recall are particularly important. Threshold selection should use validation data rather than final test labels.
