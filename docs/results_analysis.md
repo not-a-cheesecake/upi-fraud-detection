@@ -55,4 +55,4 @@ For this selected example, sent-count and sent-amount masks have the largest rep
 The edge-removal diagnostic changed fraud probability by about 0.000124 after removing the top 1 edge, 0.000950 after removing the top 3, 0.002849 after removing the top 5, and 0.173727 after removing all 9. The report notes that differences between top-ranked and bottom-ranked edge removals were small for the tested 3- and 5-edge cases. This is limited, sample-specific evidence—not a dataset-wide validation of explanation quality.
 
 ## Comparison caveat
-Traditional ML metrics and GAT metrics come from separate experiment workflows. Confirm feature sets, split boundaries, preprocessing, and threshold procedures before treating numerical differences as a strict head-to-head benchmark.
+Traditional ML metrics and GAT metrics come from separate experiment workflows. Confirm feature sets, split boundaries, preprocessing, and threshold procedures before treating numerical differences as a strict head-to-head benchmark. 
